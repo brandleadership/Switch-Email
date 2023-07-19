@@ -6,7 +6,8 @@
     "build:dev": "webpack --config webpack.config.js --mode development --progress",
     "build:prod": "webpack --config webpack.config.js --mode production --progress",
     "build:serve": "npx webpack serve --config webpack.config.js --mode development --progress",
-    "watch": "webpack --config webpack.config.js --mode development --watch --progress"
+    "watch": "webpack --config webpack.config.js --mode development --watch --progress",
+    "serve": "webpack serve --config webpack.config.js --mode development --progress"
   },
   "license": "MIT",
   "contributors": [
@@ -25,7 +26,7 @@
     {
       "name": "Benjamin Vier",
       "url": "https://www.bsi-software.com/"
-    }    
+    }
   ],
   "dependencies": {
     "@bsi-cx/design-standard-library-email": "^1.1.2"

@@ -1,76 +1,75 @@
-const {css} = require('@bsi-cx/design-build');
+const { css } = require("@bsi-cx/design-build");
 
 module.exports = {
-
   /* ============================================================= */
   /*	                           Colors	                           */
   /* ============================================================= */
 
   /* ------------------------ Base Colors ------------------------ */
 
-  primaryColor: css.color('#16616d'),
-  secondaryColor: css.color('#ff7d00'),
-  darkColor: css.color('#000000'),
-  lightColor: css.color('#ffffff'),
+  primaryColor: css.color("#002864"),
+  secondaryColor: css.color("#285f82"),
+  greyColor: css.color("#50555a"),
+  grey_bg: css.color("#f0f3f6"),
+  darkColor: css.color("#000000"),
+  lightColor: css.color("#ffffff"),
 
   /* --------------------- Background Colors --------------------- */
 
   // Elements using layoutBaseBackgroundColor: layout base
-  layoutBaseBackgroundColor: css.color('#ffffff'),
+  layoutBaseBackgroundColor: css.color("#ffffff"),
 
   // A bright and neutral color should be chosen here, a discrete color matching the primary or secondary color can be generated here: https://mycolor.space/
   // Elements using layoutColoredBackgroundColor: layout with background color
-  layoutColoredBackgroundColor: css.color('#f4f4f4'),
-  layoutColoredBackgroundColorDarkMode: css.color('#383e42'),
+  layoutColoredBackgroundColor: css.color("#f4f4f4"),
+  layoutColoredBackgroundColorDarkMode: css.color("#383e42"),
 
   // Elements using highlightedBackgroundColor: highlighted content
-  highlightBackgroundColor: css.color('#efe3d4'),
-  highlightBackgroundColorDarkMode: css.color('#7c3d01'),
+  highlightBackgroundColor: css.color("#efe3d4"),
+  highlightBackgroundColorDarkMode: css.color("#7c3d01"),
 
   // Elements using eventBackgroundColor: event
-  eventBackgroundColor: css.color('#ff7d00'),
+  eventBackgroundColor: css.color("#ff7d00"),
 
   // Elements using footerBackgroundColor: footer layout base
-  footerDarkBackgroundColor: css.color('#383e42'),
+  footerDarkBackgroundColor: css.color("#002864"),
   // Elements using footerLightBackgroundColor: footer layout light
-  footerLightBackgroundColor: css.color('#ffffff'),
+  footerLightBackgroundColor: css.color("#ffffff"),
 
   /* ------------------------ Text Colors ------------------------ */
 
   // Elements using textColor: text, header date, image caption
-  baseTextColor: css.color('#000000'),
+  baseTextColor: css.color("#002864"),
 
   // Elements using titleColor: heading 1, heading 2, heading 3
-  titleTextColor: css.color('#16616d'),
+  titleTextColor: css.color("#002864"),
 
   // Elements using eventTextColor: event
-  eventTextColor: css.color('#ffffff'),
+  eventTextColor: css.color("#ffffff"),
 
   // Elements using footerTextColor: footer address, 1 footer column, 2 footer column
-  footerDarkTextColor: css.color('#ffffff'),
+  footerDarkTextColor: css.color("#ffffff"),
   // Elements using footerLightTextColor: footer address, 1 footer column, 2 footer column
-  footerLightTextColor: css.color('#000000'),
+  footerLightTextColor: css.color("#002864"),
 
   /* ---------------------- Button Colors ------------------------ */
 
   // Elements using buttonTextColor: CTA button left aligned, CTA button center aligned, CTA button right aligned
-  buttonTextColor: css.color('#ffffff'),
+  buttonTextColor: css.color("#ffffff"),
 
   // Elements using buttonBorderColor: CTA button left aligned, CTA button center aligned, CTA button right aligned
-  buttonBorderColor: css.color('#16616d'),
+  buttonBorderColor: css.color("#002864"),
 
   // Elements using buttonBackgroundColor: CTA button left aligned, CTA button center aligned, CTA button right aligned
-  buttonBackgroundColor: css.color('#16616d'),
+  buttonBackgroundColor: css.color("#002864"),
 
   /* -------------------------- Others --------------------------- */
 
   // Elements using preHeaderColor: linked text in pre-header
-  linkColor: css.color('#ff7d00'),
+  linkColor: css.color("#002864"),
 
   // Elements using dividerColor: divider
-  dividerColor: css.color('#e6e6e6'),
-
-
+  dividerColor: css.color("#50555a"),
 
   /* ============================================================= */
   /*	                           Fonts	                           */
@@ -80,14 +79,16 @@ module.exports = {
   // List for choosing fallback fonts: https://help.campaignmonitor.com/email-builder-font-compatibility
 
   // Elements using baseFontFamily: text, header date, pre-header, footer address, image caption
-  baseFontFamily: 'Open Sans, Segoe UI, Apple SD Gothic Neo, Lucida Grande, Lucida Sans Unicode, sans‑serif, Trebuchet MS',
+  baseFontFamily:
+    "Open Sans, Segoe UI, Apple SD Gothic Neo, Lucida Grande, Lucida Sans Unicode, sans‑serif, Trebuchet MS",
 
   // Elements using titleFontFamily: heading 1, heading 2, heading 3
-  titleFontFamily: 'Calibri, Carlito, PT Sans, Trebuchet MS, sans‑serif, Tahoma, Verdana, Trebuchet MS',
+  titleFontFamily:
+    "Calibri, Carlito, PT Sans, Trebuchet MS, sans‑serif, Tahoma, Verdana, Trebuchet MS",
 
   // Elements using buttonFontFamily: CTA button left aligned, CTA button center aligned, CTA button right aligned
-  buttonFontFamily: 'Open Sans, Segoe UI, Apple SD Gothic Neo, Lucida Grande, Lucida Sans Unicode, sans‑serif, Trebuchet MS',
-
+  buttonFontFamily:
+    "Open Sans, Segoe UI, Apple SD Gothic Neo, Lucida Grande, Lucida Sans Unicode, sans‑serif, Trebuchet MS",
 
   /* ============================================================= */
   /*	                           Sizes	                           */
@@ -108,7 +109,7 @@ module.exports = {
   // Elements using colTwoSlimWidth: 2 columns ratio 1:2, 2 columns ratio 2:1
   colTwoSlimWidth: 660 / 3,
   // Elements using colTwoWideWidth: 2 columns ratio 1:2, 2 columns ratio 2:1
-  colTwoWideWidth: 660 / 3 * 2,
+  colTwoWideWidth: (660 / 3) * 2,
   // Elements using colThreeWidth: 3 columns
   colThreeWidth: 660 / 3,
 
@@ -204,12 +205,12 @@ module.exports = {
 
   // add rounded corners to images
   // Please note: this does NOT work in Outlook on Windows!
-  // Elements using imageBorderRadius: header image, 
+  // Elements using imageBorderRadius: header image,
   imageBorderRadius: 0,
 
   // set the dimension of the header logo. Use either 'logoWidth' OR 'logoHeight', not both
   // Elements using logoWidth: logo
-  logoWidth: 60,
+  logoWidth: 120,
   //logoHeight: 50,
 
   /* -------------------------- Others --------------------------- */
@@ -218,7 +219,7 @@ module.exports = {
   // Elements using the properties below: CTA button left aligned, CTA button center aligned, CTA button right aligned
   buttonBorderRadius: 5,
   // font weight of the button text
-  buttonFontWeight: 'normal',
+  buttonFontWeight: "normal",
   // font size of the button text
   buttonFontSize: 14,
   // padding of the button
@@ -242,22 +243,22 @@ module.exports = {
   // Height of social media icons in px
   // Elements using socialMediaIconHeight: social media follow
   socialMediaIconHeight: 20,
-  
+
   // font weight of news title
-  fontWeightNewsText: 'normal',
+  fontWeightNewsText: "normal",
 
   /* ============================================================= */
   /*	                          Layout  	                         */
   /* ============================================================= */
 
   // Elements using alignmentLeft: text, CTA button left aligned
-  alignmentLeft: 'left',
+  alignmentLeft: "left",
 
   // Elements using alignmentCenter: CTA button center aligned, layout light footer
-  alignmentCenter: 'center',
+  alignmentCenter: "center",
 
   // Elements using alignmentRight: CTA button right aligned
-  alignmentRight: 'right',
+  alignmentRight: "right",
 
   /* ============================================================= */
   /*	                   Social Media Follow                       */
@@ -289,11 +290,10 @@ module.exports = {
   /* ============================================================= */
 
   // used in footer address element
-  addressPhoneText: '+41 71 000 00 00',
-  addressPhoneURL: 'tel:0041710000000',
-  addressEmailText: 'info@example.com',
-  addressEmailURL: 'mailto:info@example.com',
-  addressWebText: 'www.example.com',
-  addressWebURL: 'https://www.example.com/',
-
-}
+  addressPhoneText: "+41 71 000 00 00",
+  addressPhoneURL: "tel:0041710000000",
+  addressEmailText: "info@example.com",
+  addressEmailURL: "mailto:info@example.com",
+  addressWebText: "www.example.com",
+  addressWebURL: "https://www.example.com/",
+};
