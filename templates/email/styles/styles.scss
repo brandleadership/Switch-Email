@@ -1,4 +1,13 @@
-@import '~@bsi-cx/design-standard-library-email/styles/styles.scss';
+@import "~@bsi-cx/design-standard-library-email/styles/styles.scss";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 .bsi-header .bsi-cta {
   margin-bottom: 0 !important;

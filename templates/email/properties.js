@@ -79,16 +79,13 @@ module.exports = {
   // List for choosing fallback fonts: https://help.campaignmonitor.com/email-builder-font-compatibility
 
   // Elements using baseFontFamily: text, header date, pre-header, footer address, image caption
-  baseFontFamily:
-    "Open Sans, Segoe UI, Apple SD Gothic Neo, Lucida Grande, Lucida Sans Unicode, sans‑serif, Trebuchet MS",
+  baseFontFamily: "Arial, Helvetica, sans‑serif",
 
   // Elements using titleFontFamily: heading 1, heading 2, heading 3
-  titleFontFamily:
-    "Calibri, Carlito, PT Sans, Trebuchet MS, sans‑serif, Tahoma, Verdana, Trebuchet MS",
+  titleFontFamily: "Arial, Helvetica, sans‑serif",
 
   // Elements using buttonFontFamily: CTA button left aligned, CTA button center aligned, CTA button right aligned
-  buttonFontFamily:
-    "Open Sans, Segoe UI, Apple SD Gothic Neo, Lucida Grande, Lucida Sans Unicode, sans‑serif, Trebuchet MS",
+  buttonFontFamily: "Arial, Helvetica, sans‑serif",
 
   /* ============================================================= */
   /*	                           Sizes	                           */
