@@ -1,7 +1,50 @@
 @import "~@bsi-cx/design-standard-library-email/styles/styles.scss";
 
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("../../../resources/fonts/EuclidCircularB-Medium-WebXL.woff")
+      format("woff"),
+    url("../../../resources/fonts/EuclidCircularB-Medium-WebXL.woff2")
+      format("woff2"),
+    url("../../../resources/fonts/EuclidCircularB-Regular-WebXL.woff")
+      format("woff"),
+    url("../../../resources/fonts/EuclidCircularB-Regular-WebXL.woff2")
+      format("woff2"),
+    url("../../../resources/fonts/EuclidCircularB-Semibold-WebXL.woff")
+      format("woff"),
+    url("../../../resources/fonts/EuclidCircularB-Semibold-WebXL.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("../../../resources/fonts/EuclidCircularB-Regular-WebXL.woff")
+      format("woff"),
+    url("../../../resources/fonts/EuclidCircularB-Regular-WebXL.woff2")
+      format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("../../../resources/fonts/EuclidCircularB-Medium-WebXL.woff")
+      format("woff"),
+    url("../../../resources/fonts/EuclidCircularB-Medium-WebXL.woff2")
+      format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("../../../resources/fonts/EuclidCircularB-Semibold-WebXL.woff")
+      format("woff"),
+    url("../../../resources/fonts/EuclidCircularB-Semibold-WebXL.woff2")
+      format("woff2");
+  font-weight: 600;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Euclid Circular B" arial, sans-serif;
   margin: 0;
   padding: 0;
   min-height: 100vh;
