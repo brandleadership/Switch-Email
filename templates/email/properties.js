@@ -79,13 +79,13 @@ module.exports = {
   // List for choosing fallback fonts: https://help.campaignmonitor.com/email-builder-font-compatibility
 
   // Elements using baseFontFamily: text, header date, pre-header, footer address, image caption
-  baseFontFamily: "Euclid Circular B,Arial, sans‑serif",
+  baseFontFamily: "Euclid Circular B, Arial, sans‑serif",
 
   // Elements using titleFontFamily: heading 1, heading 2, heading 3
   titleFontFamily: "Euclid Circular B, Arial, sans‑serif",
 
   // Elements using buttonFontFamily: CTA button left aligned, CTA button center aligned, CTA button right aligned
-  buttonFontFamily: "Euclid Circular B,Arial, sans‑serif",
+  buttonFontFamily: "Euclid Circular B, Arial, sans‑serif",
 
   /* ============================================================= */
   /*	                           Sizes	                           */
