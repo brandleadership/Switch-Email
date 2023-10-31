@@ -29,7 +29,7 @@ module.exports = {
   highlightBackgroundColorDarkMode: css.color("#7c3d01"),
 
   // Elements using eventBackgroundColor: event
-  eventBackgroundColor: css.color("#ff7d00"),
+  eventBackgroundColor: css.color("#002864"),
 
   // Elements using footerBackgroundColor: footer layout base
   footerDarkBackgroundColor: css.color("#002864"),
