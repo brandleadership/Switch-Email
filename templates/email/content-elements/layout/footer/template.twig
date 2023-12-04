@@ -46,11 +46,11 @@
                                                                               <td  style=" color: white;
                                                                                  font-size: 16px;
                                                                                  line-height: 22px;
-                                                                                 width: 120px; font-family: Euclid Circular B Arial, sans-serif !important;">
-                                                                                 <p data-bsi-element-part="plain-text" style=" color: #ffffff !important;
+                                                                                 width: 120px;">
+                                                                                 <p data-bsi-element-part="plain-text" style=" color: #ffffff !important; font-family: {{ properties.baseFontFamily }};
                                                                                     font-size: 16px;
                                                                                     line-height: 22px;
-                                                                                    width: 120px;  font-family: Euclid Circular B Arial, sans-serif !important;">
+                                                                                    width: 120px;">
                                                                                     Zürich<br>Werdstrasse 2<br>8004 Zürich
                                                                                  </p>
                                                                               </td>
@@ -69,7 +69,7 @@
                                                                                                       <tr>
                                                                                                          <td style="padding: 6px 14px; border: 2px solid #002864; border-radius: 15px;background-color: #ffffff;">
                                                                                                             <a data-bsi-element-part="link"
-                                                                                                               style="font-size: 14px; font-family: Euclid Circular B Arial, sans-serif !important;  line-height: 14px; color: #002864; font-weight: 600; text-decoration: none; display: inline-block; text-align: center; border-radius: 15px; background-color: #ffffff;  mso-padding-alt: 0; word-break: keep-all; text-underline-color: #002864;"
+                                                                                                               style="font-family: {{ properties.baseFontFamily }};font-size: 14px;line-height: 14px; color: #002864; font-weight: 600; text-decoration: none; display: inline-block; text-align: center; border-radius: 15px; background-color: #ffffff;  mso-padding-alt: 0; word-break: keep-all; text-underline-color: #002864;"
                                                                                                                href="https://example.org/" target="_blank">Kontakt</a>
                                                                                                          </td>
                                                                                                       </tr>
@@ -98,8 +98,8 @@
                                                                                                 <td  style=" white;
                                                                                                    font-size: 16px;
                                                                                                    line-height: 22px;
-                                                                                                   width: 120px; font-family: Euclid Circular B Arial, sans-serif !important;">
-                                                                                                   <p data-bsi-element-part="plain-text" style=" color: #ffffff; font-family: Euclid Circular B Arial, sans-serif !important;
+                                                                                                   width: 120px">
+                                                                                                   <p data-bsi-element-part="plain-text" style="font-family: {{ properties.baseFontFamily }}; color: #ffffff;
                                                                                                       font-size: 16px;
                                                                                                       line-height: 22px;
                                                                                                       width: 120px;">
@@ -121,7 +121,7 @@
                                                                                                                         <tr>
                                                                                                                            <td style="padding: 6px 14px; border: 2px solid #002864; border-radius: 15px;background-color: #ffffff;">
                                                                                                                               <a data-bsi-element-part="link"
-                                                                                                                                 style="font-size: 14px; font-family: Euclid Circular B Arial, sans-serif !important;  line-height: 14px; color: #002864; font-weight: 600; text-decoration: none; display: inline-block; text-align: center; border-radius: 15px; background-color: #ffffff;  mso-padding-alt: 0; word-break: keep-all; text-underline-color: #002864;"
+                                                                                                                                 style="font-family: {{ properties.baseFontFamily }};font-size: 14px;line-height: 14px; color: #002864; font-weight: 600; text-decoration: none; display: inline-block; text-align: center; border-radius: 15px; background-color: #ffffff;  mso-padding-alt: 0; word-break: keep-all; text-underline-color: #002864;"
                                                                                                                                  href="https://example.org/" target="_blank">Kontakt</a>
                                                                                                                            </td>
                                                                                                                         </tr>
@@ -176,26 +176,26 @@
                                           <td class="mobile-links mobile-styles mob-width" width="100%" align="right">
                                              <table cellpadding="0" cellspacing="0">
                                                 <tr>
-                                                   <td style="display: inline; padding-right: 5px;font-family: Euclid Circular B, Arial, sans-serif; ">
+                                                   <td style="font-family: {{ properties.baseFontFamily }}; display: inline; padding-right: 5px;">
                                                       © {year} for content at Switch
                                                    </td>
                                                      <td style="display: inline;">
                                                       <span>&#160;|&#160;</span>
                                                    </td>
                                                    <td style="display: inline;">
-                                                      <a data-bsi-element-part="link" class="footer-links" style="font-family: Euclid Circular B, Arial, sans-serif; text-decoration: none; color: white !important;" href="[Rechtliches]">Rechtliches</a>
+                                                      <a data-bsi-element-part="link" class="footer-links" style="font-family: {{ properties.baseFontFamily }};text-decoration: none; color: white !important;" href="[Rechtliches]">Rechtliches</a>
                                                    </td>
                                                    <td style="display: inline;">
                                                       <span>&#160;|&#160;</span>
                                                    </td>
                                                    <td style="display: inline;">
-                                                      <a data-bsi-element-part="link" class="footer-links" style="font-family: Euclid Circular B, Arial, sans-serif; text-decoration: none; color: white !important;" href="[Impressum]">Impressum</a>
+                                                      <a data-bsi-element-part="link" class="footer-links" style="font-family: {{ properties.baseFontFamily }};text-decoration: none; color: white !important;" href="[Impressum]">Impressum</a>
                                                    </td>
                                                    <td style="display: inline;">
                                                       <span>&#160;|&#160;</span>
                                                    </td>
                                                    <td style="display: inline;">
-                                                      <a data-bsi-element-part="link" class="footer-links" style="font-family: Euclid Circular B, Arial, sans-serif; text-decoration: none; color: white !important;" href="[Datenschutz]">Datenschutz</a>
+                                                      <a data-bsi-element-part="link" class="footer-links" style="font-family: {{ properties.baseFontFamily }};text-decoration: none; color: white !important;" href="[Datenschutz]">Datenschutz</a>
                                                    </td>
                                                 </tr>
                                              </table>
