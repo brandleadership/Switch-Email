@@ -35,9 +35,13 @@
         {# Include all CSS from template and library #}
         {# Make sure that the inlined CSS refers to ~@bsi-cx/design-standard-library-email/styles/styles.scss #}
         {# Keep in mind that many inline styles are still necessary! #}
+      
         <style>
             {{ bsi_cx_css_inline() }}
         </style>
+        <style type="text/css">
+    {% include './styles/general.scss' %}
+</style>
     </head>
     <body vlink="{{visitedLinkColor}}" width="100%" style="margin: 0; padding: 0 !important; word-spacing: normal; mso-line-height-rule: exactly;">
         <table role="presentation" class="bsi-dm-bg-color" style="width: 100%; border: 0; border-spacing: 0; background-color: #ffffff;">
@@ -96,10 +100,9 @@
             {% block content %}
             {% endblock %}
         </div>
-        <div data-bsi-dropzone="footer-j91rgA" data-bsi-dropzone-allowed-elements="layout-dark-footer-x1LvCb layout-light-footer-lczK9u">
+        <div data-bsi-dropzone="footer-j91rgA" data-bsi-dropzone-allowed-elements="footer-switch">
             {% block footer %}
-                {% include '@bsi-cx/design-standard-library-email/content-elements/layout/layout-dark-footer/template.twig' %}
-                {% include './content-elements/layout/layout-light-footer/template.twig' %}
+                {% include './content-elements/layout/footer/template.twig' %}
             {% endblock %}
         </div>
     </body>

@@ -29,7 +29,7 @@ module.exports = {
   highlightBackgroundColorDarkMode: css.color("#7c3d01"),
 
   // Elements using eventBackgroundColor: event
-  eventBackgroundColor: css.color("#ff7d00"),
+  eventBackgroundColor: css.color("#002864"),
 
   // Elements using footerBackgroundColor: footer layout base
   footerDarkBackgroundColor: css.color("#002864"),
@@ -79,16 +79,13 @@ module.exports = {
   // List for choosing fallback fonts: https://help.campaignmonitor.com/email-builder-font-compatibility
 
   // Elements using baseFontFamily: text, header date, pre-header, footer address, image caption
-  baseFontFamily:
-    "Open Sans, Segoe UI, Apple SD Gothic Neo, Lucida Grande, Lucida Sans Unicode, sans‑serif, Trebuchet MS",
+  baseFontFamily: "Arial, sans‑serif",
 
   // Elements using titleFontFamily: heading 1, heading 2, heading 3
-  titleFontFamily:
-    "Calibri, Carlito, PT Sans, Trebuchet MS, sans‑serif, Tahoma, Verdana, Trebuchet MS",
+  titleFontFamily: "Arial, sans‑serif",
 
   // Elements using buttonFontFamily: CTA button left aligned, CTA button center aligned, CTA button right aligned
-  buttonFontFamily:
-    "Open Sans, Segoe UI, Apple SD Gothic Neo, Lucida Grande, Lucida Sans Unicode, sans‑serif, Trebuchet MS",
+  buttonFontFamily: "Arial, sans‑serif",
 
   /* ============================================================= */
   /*	                           Sizes	                           */

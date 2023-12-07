@@ -1,13 +1,8 @@
-const contentElement = require('@bsi-cx/design-standard-library-email/content-elements/base/cta/prototype');
+const { cx, Icon } = require("@bsi-cx/design-build");
 
-module.exports = contentElement(
-  require('./template.twig'),
-  'cta-center-CLc9J9',
-  /*'CTA button',*/
-  'CTA Button',
-  /*'center aligned',*/
-  'mittig',
-  'cta-center-part-qt8DLo',
-  /*'CTA button'*/
-  'CTA Button'
-);
+module.exports = cx.contentElement
+  .withElementId("cta-center-CLc9J9")
+  .withIcon(Icon.TEXT)
+  .withLabel("CTA Button Center")
+  .withFile(require("./template.twig"))
+  .withParts(cx.part.link.withLabel("Button Link"));
