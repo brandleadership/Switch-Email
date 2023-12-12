@@ -12,8 +12,8 @@ module.exports = cx.contentElement
     cx.part.link.withLabel("Rechtliches"),
     cx.part.link.withLabel("Impressum"),
     cx.part.link.withLabel(" Datenschutz"),
-    cx.part.plainText.withLabel("Address 1"),
-    cx.part.plainText.withLabel("Address 2"),
+    cx.part.formattedText.withLabel("Address 1"),
+    cx.part.formattedText.withLabel("Address 2"),
     cx.part.plainText.withLabel(" Copyrigth")
   )
   .withDropzones(
